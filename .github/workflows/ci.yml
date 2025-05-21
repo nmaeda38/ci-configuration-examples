@@ -40,6 +40,11 @@ jobs:
         with:
           source-folder: code
 
+      #- name: Run script
+      #  uses: matlab-actions/run-command@v1
+      #  with:
+      #    command: myscript
+
       # You can use "run-build" to invoke the MATLAB build tool and run build tasks
       #- name: Run the default "test" task in the build file
       #   uses: matlab-actions/run-build@v2
